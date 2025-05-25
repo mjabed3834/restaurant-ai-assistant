@@ -1,0 +1,11 @@
+openai==1.77.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+fastapi
+uvicorn
+flask
+flask_cors
+langchain-openai==0.3.16
+gtts
+PyMuPDF
+
