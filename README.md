@@ -1,24 +1,28 @@
-# NidusBot – Restaurant AI Assistant
+# 🍽️ NidusBot – Restaurant AI Assistant
 
-**NidusBot** is an intelligent AI assistant designed for restaurants. Built using **Python**, **Flask**, **LangChain**, **OpenAI**, and **gTTS**, it can answer customer questions about your restaurant, menu, and more — using content extracted from a PDF file. The assistant supports both **text** and **voice** input/output.
+**NidusBot** is an intelligent restaurant assistant built with **Python**, **Flask**, **LangChain**, **OpenAI**, and **gTTS**. It can answer customer questions using information from your restaurant's PDF menu, supports both text and voice interactions, and provides a delightful, interactive experience.
 
----
-
-## 🚀 Features
-
-- 🧠 **Conversational AI**: Remembers previous interactions for context-aware replies.
-- 📄 **PDF Knowledge Base**: Answers questions based on your restaurant’s PDF (e.g., menu, services).
-- 🎙️ **Voice Input**: Upload or record your voice — transcribed using OpenAI Whisper.
-- 🔊 **Voice Output**: Bot replies are spoken using Google Text-to-Speech (gTTS).
-- 🙋 **Smart Greetings**: Friendly responses to greetings, goodbyes, and thank-yous.
-- 💻 **Modern UI**: Responsive and professional chat interface.
+<p align="center">
+  <img src="static/"Screenshot 2025-05-24 163249.png" alt="NidusBot Chat UI" width="600">
+</p>
 
 ---
 
-## 🛠️ Setup Instructions
+## ✨ Features
+
+- 🧠 **Conversational AI**: Understands context using memory.
+- 📄 **PDF Knowledge**: Answers are based on your uploaded restaurant menu PDF.
+- 🎙️ **Voice Input**: Use microphone or audio file input (transcribed with Whisper).
+- 🔊 **Voice Output**: Replies spoken using `gTTS` for a more natural experience.
+- 👋 **Smart Greetings**: Detects greetings, goodbyes, and expressions of thanks.
+- 💻 **Modern UI**: Clean, responsive web chat interface.
+
+---
+
+## 🚀 Quickstart Guide
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/mjabed3834/restaurant-ai-assistant.git
+git clone https://github.com/YOUR-USERNAME/restaurant-ai-assistant.git
 cd restaurant-ai-assistant
